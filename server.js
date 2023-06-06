@@ -8,10 +8,10 @@ const port = 8080;
 app.use(cors());
 
 // Conexión a la base de datos MongoDB Atlas
-mongoose.connect('mongodb+srv://fhareal10:tequilauv@cluster0.0wlcgqx.mongodb.net/?retryWrites=true&w=majority',{
+mongoose.connect('mongodb+srv://JuanDavid1217:JuanDavid%231712@cluster0.m3ei4fv.mongodb.net/?retryWrites=true&w=majority',{
   useNewUrlParser: true,
   useUnifiedTopology: true,
-  dbName: 'nosql' // Reemplaza con el nombre real de tu base de datos
+  dbName: 'fisicoculturismo' // Reemplaza con el nombre real de tu base de datos
 });
 
 // Middleware para analizar datos JSON en las solicitudes
